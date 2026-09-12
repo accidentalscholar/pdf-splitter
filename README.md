@@ -6,6 +6,12 @@ This is a simple script to split a *PDF* file into multiple files, according to 
 There are some excellent free websites to split *PDF* files. However, these have some common limitations:
 * Data protection concerns inherent in uploading the document to a connected server.
 * File size limitations imposed by most such websites.   
+* Consumption of electricity and water due to use of bandwidth and data centre resources. 
+
+## Features
+
+* Splits *PDF* files based on user-specified ranges.
+* Can merge all ranges into a single file.
 * Full preview of the *PDF* document, allowing the user to determine the page ranges on the fly.
 
 ## Usage
