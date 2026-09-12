@@ -1,5 +1,5 @@
 # PDF Splitter
-This is a simple script to split a PDF file into multiple files, according to page ranges provided by the user.
+This is a simple script to split a *PDF* file into multiple files, according to page ranges provided by the user.
 
 ## The Problem
 
