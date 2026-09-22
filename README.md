@@ -10,17 +10,27 @@ There are some excellent free websites to split *PDF* files. However, these have
 
 ## Features
 
-* Splits *PDF* files based on user-specified ranges.
+* Splits *PDF* and *EPUB* files based on user-specified ranges.
 * Can merge all ranges into a single file.
+* Bulk operation on all *PDF* and *EPUB* files in a folder.
+* Automatic split based on *Table of Contents* / *Bookmarks*.
 * Full preview of the *PDF* document, allowing the user to determine the page ranges on the fly.
 
 ## Usage
 
+### Preparation
+
+Before running the script, store all the files you wish to split into a single folder.
+
 ### Running the script
 
-When you run the *Python* script, it will pop up a file explorer/finder window asking you to select the source *PDF* file.
+When you run the *Python* script, it will pop up a file explorer/finder window asking you to select the folder housing the source *PDF* files.
 
-You should type in the page range(s) in the "*Enter page ranges*" field. You may input multiple ranges separated by commas, e.g., *1-2,3-4*. For single page ranges, just input the page number, e.g., *1*.
+The script will process the *PDF* and *EPUB* files one by one. 
+
+If the file contains *Table of Contents* / *Bookmarks*, then the script will offer the option to split automatically. 
+
+For manual split, you should type in the page range(s) in the "*Enter page ranges*" field. You may input multiple ranges separated by commas, e.g., *1-2,3-4*. For single page ranges, just input the page number, e.g., *1*.
 
 A preview of the document is provided that you can browse to determine the correct page numbers, if needed.
 
