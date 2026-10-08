@@ -68,3 +68,9 @@ Installation is simple, but if you need help, check out https://www.anaconda.com
 Once *Spyder* is ready, open the file '*pdf-splitter.py*' that has the script.
 
 All that's left is for you to hit 'Run', i.e. the green 'Play' button.
+
+## Apps without downloading Anaconda / Python
+
+*Windows* and *MacOS* executables (apps) are available to download under *Releases* - always choose the newest version.
+
+Because I am not a software company with an expensive *Code Signing Certificate* when you download the executable, and again when you try to run it, your computer will warn you not to, because it comes from an unverified source. Based on your OS, it may not always be obvious how to bypass the warnings. 
